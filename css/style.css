@@ -1,0 +1,94 @@
+body {
+    background-color: #3B3F45;
+    outline: 20px solid #6E6E6E;
+    min-height: 100%;
+    border: 15px solid #6E6E6E;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.board {
+    width: 576px;
+    height: 576px;
+    margin: auto;
+    font-size: 0;
+    border: 15px solid #81351D;
+}
+.row {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    width: 64px;
+    height: 64px;
+    border: none;
+}
+.black {
+    position: relative;
+    background-color: #402102;
+}
+.white {
+    background-color: #c2a120;
+}
+.box {
+    width: 32px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background: #000000;
+    color: #ffffff;
+}
+.box_1 {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: #000000;
+}
+.box_2 {
+    width: 64px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 25px;
+    font-family: "FF Meta Serif", serif;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+.checker_w {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: azure;
+}
+.checker_b {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+}
+.checker_b:hover,
+.checker_w:hover {
+    width: 60px;
+    height: 60px;
+    background-color: darkmagenta;
+}
